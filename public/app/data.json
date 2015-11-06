@@ -1,0 +1,39 @@
+{
+	"details" : [
+		{
+			"name" : "Fazal",
+			"age" : 23,
+			"sex" : "Male",
+			"email" : "sample0@email.com",
+			"nationality" : "Indian"
+		},
+		{
+			"name" : "Saba",
+			"age" : 23,
+			"sex" : "Female",
+			"email" : "sample1@email.com",
+			"nationality" : "Indian"
+		},
+		{
+			"name" : "Ilahi",
+			"age" : 15,
+			"sex" : "Male",
+			"email" : "sample2@email.com",
+			"nationality" : "Indian"
+		},
+		{
+			"name" : "Heena",
+			"age" : 20,
+			"sex" : "Female",
+			"email" : "sample3@email.com",
+			"nationality" : "Indian"
+		},
+		{
+			"name" : "Sabanaz",
+			"age" : 27,
+			"sex" : "Female",
+			"email" : "sample4@email.com",
+			"nationality" : "Indian"
+		}
+	]
+}

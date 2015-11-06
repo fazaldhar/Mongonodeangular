@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Corp Player App</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/ng-grid.min.css" />
+</head>
+
+<body ng-app="profileApp" class="bodyForm">
+    <div ng-controller="profileHomeController" class="wrapper">
+        <ul class="topNav">
+            <li>
+                <a href="#/enterDetails" ng-bind="data.labels.label_nav1"></a>
+            </li>
+            <li>
+                <a href="#/viewDetails" ng-bind="data.labels.label_nav2"></a>
+            </li>
+            <!-- <li>
+                <a href="#/editDetails" ng-bind="data.labels.label_nav3"></a>
+            </li>
+            <li>
+                <a href="#/deleteDetails" ng-bind="data.labels.label_nav4"></a>
+            </li>
+            <li>
+                <a href="#/printDetails" ng-bind="data.labels.label_nav5"></a>
+            </li> -->
+        </ul>
+        <div class="bodyContent">
+            <div ng-view></div>
+        </div>
+    </div>
+    <!-- <script data-main="scripts/app" src="scripts/lib/require.js"></script> -->
+    <script type="text/javascript" src="app/js/jquery.min.js"></script>
+    <script type="text/javascript" src="app/js/angular.js"></script>
+    <script type="text/javascript" src="app/js/angular-route.js"></script>
+    <script type="text/javascript" src="app/js/angular-resource.js"></script>
+    <script type="text/javascript" src="app/js/ng-grid-2.0.11.min.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/controllers/viewProfileController.js"></script>
+    <script type="text/javascript" src="app/controllers/enterProfileController.js"></script>
+    <script type="text/javascript" src="app/services/profileService.js"></script>
+    <script type="text/javascript" src="app/directives/viewProfileDir.js"></script>
+</body>
+
+</html>

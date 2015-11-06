@@ -1,0 +1,37 @@
+
+
+<div class="gridContent">
+
+	<view-profile data="players"></view-profile>
+
+	<!-- <div class="gridStyle" ng-grid="gridOptions"></div> -->
+</div>
+
+<div ng-show="blackScreen" class="blackScreen" ng-click="closePopUp()"></div>
+
+<div ng-show="viewDetPopup" class="viewDetPopup">
+	<form>
+		<label>First Name</label>
+		<input type="text" ng-model="player.firstname">
+		<label>Last Name</label>
+		<input type="text" ng-model="player.lastname">
+		<label>Email</label>
+		<input type="text" ng-model="player.email">
+		<label>Sex</label>
+		<input type="text" ng-model="player.sex">
+		<label>Age</label>
+		<input type="text" ng-model="player.age">
+		<label>Height</label>
+		<input type="text" ng-model="player.height">
+		<label>weight</label>
+		<input type="text" ng-model="player.weight">
+		<label>Sports</label>
+		<input type="text" ng-model="player.sports">
+	</form>
+	<div class="EDbutns">
+		<button class="fRight" ng-click="removePlayer()">Delete</button>
+		<button class="fRight" ng-click="updatePlayer()">Update</button>
+		<div class="clearFix"></div>
+	</div>
+</div>
+
